@@ -1,6 +1,7 @@
 # Dependencies
 /node_modules
 /Finance_Frontend/node_modules
+/Finance_Backend/node_modules/
 
 # Environment variables
 .env
