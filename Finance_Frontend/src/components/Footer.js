@@ -385,7 +385,7 @@ const Footer = ({ fullBleed = false }) => {
     <FooterContainer fullBleed={fullBleed}>
       <FooterContent fullBleed={fullBleed}>
         <BrandColumn>
-          <FooterLogo src="/assets/images/logo1-removebg-preview.png" alt="ABBASS Finance" />
+          <FooterLogo src="assets/images/logo1-removebg-preview.png" alt="ABBASS Finance" />
           <BrandDescription>
             Your trusted partner in financial solutions, helping you achieve your dreams through innovative and personalized services.
           </BrandDescription>

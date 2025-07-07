@@ -353,7 +353,7 @@ const About = () => {
       <Hero 
         title="About ABBASS Finance"
         subtitle="Your trusted partner in financial solutions, dedicated to helping you achieve your financial goals."
-        backgroundImage="/assets/images/pexels-a-darmel-7710182.jpg"
+        backgroundImage="assets/images/pexels-a-darmel-7710182.jpg"
         noMarginBottom
         showScrollDown={true}
       />
@@ -426,7 +426,7 @@ const About = () => {
           <ManagingDirectorSection>
           <DirectorContainer>
             <DirectorImage 
-                src="/assets/images/ceo.JPG" 
+                src="assets/images/ceo.JPG" 
               alt="Portrait of Managing Director"
             />
             <DirectorContent>

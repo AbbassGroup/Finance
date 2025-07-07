@@ -62,7 +62,7 @@ const LoadingFallback = () => (
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/finance">
       <ThemeProvider theme={theme}>
         <AppProvider>
           <Suspense fallback={<LoadingFallback />}>

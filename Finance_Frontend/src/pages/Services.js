@@ -54,7 +54,7 @@ const CardFlex = styled.div`
   }
 `;
 
-const bgImages = ['/assets/images/image2.jpg', '/assets/images/image3.jpg', '/assets/images/image4.jpg', '/assets/images/image5.jpg', '/assets/images/image6.jpg', '/assets/images/image7.jpg'];
+const bgImages = ['assets/images/image2.jpg', 'assets/images/image3.jpg', 'assets/images/image4.jpg', 'assets/images/image5.jpg', 'assets/images/image6.jpg', 'assets/images/image7.jpg'];
 
 const BlurredBg = styled.div`
   position: absolute;
@@ -170,7 +170,7 @@ const services = [
     title: 'Home Loans',
     subtitle: "Your Path to Home Ownership",
     description: `Comprehensive home loan solutions including First Home Buyer Loans, Owner-Occupier Loans, Low Deposit Home Loans, Family Guarantee Loans, and Construction Loans. We help you find the perfect home loan that matches your needs and financial situation.`,
-    image: '/assets/images/commercialloans.jpg',
+    image: 'assets/images/commercialloans.jpg',
     cta: 'Explore Home Loans',
     icon: FaHome,
   },
@@ -178,7 +178,7 @@ const services = [
     title: 'Investment Property Loans',
     subtitle: "Maximize Your Investment Returns",
     description: `Specialized investment property financing options including Interest-Only Investment Loans, Principal & Interest Investment Loans, Equity Release for Investments, and Multiple Property Loan Structuring. Maximize your investment returns with our tailored solutions.`,
-    image: '/assets/images/image3.jpg',
+    image: 'assets/images/image3.jpg',
     cta: 'Explore Investment Loans',
     icon: FaChartLine,
   },
@@ -186,7 +186,7 @@ const services = [
     title: 'Refinancing Solutions',
     subtitle: "Optimize Your Existing Loans",
     description: `Expert refinancing services including Refinance for Lower Rates, Debt Consolidation Loans, Equity Release for Renovations or Investments, and flexible options for switching between Fixed and Variable rates. Let us help you optimize your existing loans.`,
-    image: '/assets/images/image4.jpg',
+    image: 'assets/images/image4.jpg',
     cta: 'Explore Refinancing',
     icon: FaCheckDouble,
   },
@@ -194,7 +194,7 @@ const services = [
     title: 'Commercial Property Loans',
     subtitle: "Finance Your Commercial Success",
     description: `Comprehensive commercial property financing including Owner-Occupied Commercial Loans, Investment Commercial Property Loans, SMSF Loans, and specialized finance for Warehouse, Office & Retail Properties.`,
-    image: '/assets/images/image5.jpg',
+    image: 'assets/images/image5.jpg',
     cta: 'Explore Commercial Loans',
     icon: FaBuilding,
   },
@@ -202,7 +202,7 @@ const services = [
     title: 'Business Loans',
     subtitle: "Fuel Your Business Growth",
     description: `Flexible business financing solutions including Unsecured Business Loans, Secured Business Loans, Invoice Financing, Business Line of Credit, and Franchise Finance. We support your business growth with tailored funding options.`,
-    image: '/assets/images/image8.jpg',
+    image: 'assets/images/image8.jpg',
     cta: 'Explore Business Loans',
     icon: FaHandshake,
   },
@@ -210,7 +210,7 @@ const services = [
     title: 'Vehicle & Equipment Finance',
     subtitle: "Finance Your Assets",
     description: `Complete vehicle and equipment financing solutions including Car Loans (Personal & Business Use), Commercial Vehicle Loans, Equipment & Machinery Finance, Chattel Mortgage, Hire Purchase Agreements, and Novated Leases.`,
-    image: '/assets/images/image10.jpg',
+    image: 'assets/images/image10.jpg',
     cta: 'Explore Vehicle Finance',
     icon: FaPiggyBank,
   },
@@ -218,7 +218,7 @@ const services = [
     title: 'SMSF Loans',
     subtitle: "Maximize Your Superannuation",
     description: `Specialized SMSF lending solutions including Residential Property SMSF Loans, Commercial Property SMSF Loans, and Refinance of Existing SMSF Loans. We help you maximize your superannuation investment potential.`,
-    image: '/assets/images/image4.jpg',
+    image: 'assets/images/image4.jpg',
     cta: 'Explore SMSF Loans',
     icon: FaShieldAlt,
   },
@@ -226,7 +226,7 @@ const services = [
     title: 'Construction Finance',
     subtitle: "Build Your Development Dreams",
     description: `Comprehensive construction financing including Small to Medium Scale Development Loans, Land Bank & Subdivision Finance, Construction to Completion Loans, and Joint Venture Finance Options. We support your development projects from start to finish.`,
-    image: '/assets/images/commercialloans.jpg',
+    image: 'assets/images/commercialloans.jpg',
     cta: 'Explore Construction Finance',
     icon: FaBuilding,
   }
@@ -239,7 +239,7 @@ const Services = () => {
       <Hero 
         title="Our Services"
         subtitle="Flexible finance solutions for commercial, investment, and personal needs. Discover how we can help you grow and secure your future."
-        backgroundImage="/assets/images/serviceshero.jpg"
+        backgroundImage="assets/images/serviceshero.jpg"
         noMarginBottom={true}
         showScrollDown={true}
         style={{

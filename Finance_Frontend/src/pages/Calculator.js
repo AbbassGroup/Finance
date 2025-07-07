@@ -146,7 +146,7 @@ const calculators = [
     title: 'Borrowing Power Calculator',
     link: '/calculators/borrowing-power',
     description: 'Discover how much you can borrow for your home loan based on your income, expenses, and financial situation. Our calculator takes into account your income, living expenses, existing debts, and other financial commitments to give you a realistic estimate of your borrowing capacity.',
-    image: '/assets/images/calculator/Borrowing_Power_Calculator.png',
+    image: 'assets/images/calculator/Borrowing_Power_Calculator.png',
     imagePosition: 'center 20%',
     sectionTitle: 'Calculate Your Borrowing Power',
     sectionDescription: 'Understand your maximum borrowing capacity and plan your home purchase with confidence.'
@@ -155,7 +155,7 @@ const calculators = [
     title: 'Stamp Duty Calculator',
     link: '/calculators/stamp-duty',
     description: 'Calculate the stamp duty payable on your property purchase across different states and territories. Our calculator considers property value, property type, and location to provide accurate stamp duty estimates, helping you budget effectively for your purchase.',
-    image: '/assets/images/calculator/Stamp Duty Calculator.jpg',
+    image: 'assets/images/calculator/Stamp Duty Calculator.jpg',
     imagePosition: 'center',
     sectionTitle: 'Estimate Your Stamp Duty',
     sectionDescription: 'Get accurate stamp duty calculations for your property purchase across all Australian states and territories.'
@@ -164,7 +164,7 @@ const calculators = [
     title: 'Loan Repayment Calculator',
     link: '/calculators/loan-repayment',
     description: 'Estimate your monthly loan repayments and understand the total cost of your loan over time. Our calculator helps you visualize your repayment schedule, including principal and interest payments, helping you make informed decisions about your loan term and structure.',
-    image: '/assets/images/calculator/Loan Repayment Calculator.png',
+    image: 'assets/images/calculator/Loan Repayment Calculator.png',
     imagePosition: 'center 70%',
     sectionTitle: 'Plan Your Loan Repayments',
     sectionDescription: 'Calculate your monthly repayments and understand the total cost of your loan over time.'
@@ -173,7 +173,7 @@ const calculators = [
     title: 'Rent vs Buy Calculator',
     link: '/calculators/rent-vs-buy',
     description: 'Compare the costs of renting versus buying a property to make an informed decision about your housing future. Our calculator analyzes various factors including property value, rental costs, interest rates, and maintenance expenses to help you determine which option makes more financial sense for your situation.',
-    image: '/assets/images/calculator/Buy vs Rent Calculator.jpg',
+    image: 'assets/images/calculator/Buy vs Rent Calculator.jpg',
     imagePosition: 'center 80%',
     sectionTitle: 'Compare Renting vs Buying',
     sectionDescription: 'Make an informed decision about whether renting or buying is the better financial choice for you.'
@@ -185,7 +185,7 @@ const Calculator = () => (
     <Hero 
       title="Financial Calculators"
       subtitle="Make informed financial decisions with our suite of easy-to-use calculators."
-      backgroundImage="/assets/images/pexels-leeloothefirst-8962447.jpg"
+      backgroundImage="assets/images/pexels-leeloothefirst-8962447.jpg"
       showScrollDown={true}
     />
     <CalculatorBg>

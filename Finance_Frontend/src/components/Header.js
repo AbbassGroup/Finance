@@ -330,7 +330,7 @@ const Header = () => {
     <HeaderContainer hidden={hidden} isScrolled={isScrolled}>
       <HeaderContent>
         <LogoContainer to="/" onClick={closeMenu}>
-          <Logo src="/assets/images/logo1-removebg-preview-2.png" alt="Abbass Finance Logo" />
+          <Logo src="assets/images/logo1-removebg-preview-2.png" alt="Abbass Finance Logo" />
         </LogoContainer>
         
         <MenuButton onClick={toggleMenu} aria-label="Toggle menu">

@@ -16,7 +16,7 @@ import { submitHomeForm } from '../services/api';
 const HeroSection = styled.section`
   min-height: 70vh;
   width: 100%;
-  background: linear-gradient(120deg, rgba(20,20,30,0.82) 0%, rgba(20,20,30,0.62) 100%), url('/assets/images/homepage-hero.jpg');
+  background: linear-gradient(120deg, rgba(20,20,30,0.82) 0%, rgba(20,20,30,0.62) 100%), url('assets/images/homepage-hero.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1822,20 +1822,20 @@ const Home = () => {
   `;
 
   const partners = [
-    { name: 'ANZ', logo: '/assets/images/company_logo/anz.png' },
-    { name: 'Commonwealth Bank', logo: '/assets/images/company_logo/commbank.png' },
-    { name: 'Macquarie Bank', logo: '/assets/images/company_logo/macqarie.png' },
-    { name: 'NAB', logo: '/assets/images/company_logo/nab.png' },
-    { name: 'Westpac', logo: '/assets/images/company_logo/westpac.png' }
+    { name: 'ANZ', logo: 'assets/images/company_logo/anz.png' },
+    { name: 'Commonwealth Bank', logo: 'assets/images/company_logo/commbank.png' },
+    { name: 'Macquarie Bank', logo: 'assets/images/company_logo/macqarie.png' },
+    { name: 'NAB', logo: 'assets/images/company_logo/nab.png' },
+    { name: 'Westpac', logo: 'assets/images/company_logo/westpac.png' }
   ];
 
   const newPartners = [
-    { name: 'Suncorp', logo: '/assets/images/company_logo/suncorp_bank_logo-removebg-preview.png' },
-    { name: 'Images', logo: '/assets/images/company_logo/images-removebg-preview.png' },
-    { name: 'Bank of Queensland', logo: '/assets/images/company_logo/Bank_of_Queensland_Limited.png' },
-    { name: 'IMB', logo: '/assets/images/company_logo/imb.png' },
-    { name: 'HSBC', logo: '/assets/images/company_logo/hsbc.svg' },
-    { name: 'Bendigo Bank', logo: '/assets/images/company_logo/Bendigo_Bank_logo.svg.png' }
+    { name: 'Suncorp', logo: 'assets/images/company_logo/suncorp_bank_logo-removebg-preview.png' },
+    { name: 'Images', logo: 'assets/images/company_logo/images-removebg-preview.png' },
+    { name: 'Bank of Queensland', logo: 'assets/images/company_logo/Bank_of_Queensland_Limited.png' },
+    { name: 'IMB', logo: 'assets/images/company_logo/imb.png' },
+    { name: 'HSBC', logo: 'assets/images/company_logo/hsbc.svg' },
+    { name: 'Bendigo Bank', logo: 'assets/images/company_logo/Bendigo_Bank_logo.svg.png' }
   ];
 
   // Create duplicated arrays for smooth infinite scrolling animation

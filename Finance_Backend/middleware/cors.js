@@ -1,14 +1,17 @@
 const cors = require('cors');
-
+const allowedOrigins = [
+  'https://abbass.com.au',
+  'https://abbass.com.au/finance' // Optional, just for clarity — won't match anyway
+];
 const corsOptions = {
   origin: function (origin, callback) {
     // Allow requests with no origin (like mobile apps or curl requests)
     if (!origin) return callback(null, true);
     
-    const allowedOrigins = [
-      process.env.FRONTEND_URL,
-      process.env.PRODUCTION_FRONTEND_URL
-    ].filter(Boolean); // Remove undefined values
+//    const allowedOrigins = [
+  //    process.env.FRONTEND_URL,
+    //  process.env.PRODUCTION_FRONTEND_URL
+   // ].filter(Boolean); // Remove undefined values
     
     if (allowedOrigins.indexOf(origin) !== -1) {
       callback(null, true);

@@ -1177,7 +1177,7 @@ const Contact = () => {
       <Hero
         title="Contact Us"
         subtitle="Let's discuss your business needs"
-        backgroundImage="/assets/images/pexels-shkrabaanthony-7984816.jpg"
+        backgroundImage="assets/images/pexels-shkrabaanthony-7984816.jpg"
         style={{
           position: 'relative',
           overflow: 'hidden',
