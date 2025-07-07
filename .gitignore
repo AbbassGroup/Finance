@@ -1,0 +1,10 @@
+# Dependencies
+/node_modules
+/Finance_Frontend/node_modules
+
+# Environment variables
+.env
+/Finance_Frontend/.env
+
+# Build folder
+/Finance_Frontend/build
